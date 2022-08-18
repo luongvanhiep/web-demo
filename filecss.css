@@ -1,0 +1,94 @@
+html {
+    /* lấy ảnh nền web bằng link */
+    background: url(https://topchiase24h.com/wp-content/uploads/2021/03/Hinh-nen-anh-thien-nhien-cho-iphone-42.jpg);
+    /* Ảnh không bị lặp */
+    background-repeat: no-repeat;
+    /* khung ảnh vừa với web */
+    background-size: cover;
+}
+
+h1,
+h2 {
+    color: red;
+    /* viết hoa chữ cái đầu */
+    text-transform: capitalize;  
+    border: 1px solid blue;
+    background: rgb(227, 246, 247);
+}
+
+img {
+    border-radius: 10%;
+    border: 2px solid rgb(135, 226, 248);
+}
+
+#menu ul {
+    background: rgb(239, 106, 73);
+    margin: 1px;
+    position: fixed;
+    list-style-type: none;
+}
+
+#menu li {
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    color: aliceblue;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    width: 292px;
+    line-height: 40px;
+    height: 40px;
+}
+
+#menu a:hover {
+    /* bỏ gạch chân */
+    text-decoration: none;
+    display: block;
+    background-color: aqua;
+    color: rgb(165, 5, 244);
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 0px;
+}
+
+.hobby,
+.gt,
+.MXH {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 800px;
+    height: 180px;
+    padding: 20px;
+    font-weight: 800;
+    box-sizing: border-box;
+    position: relative;
+    left: 0px;
+}
+
+table {
+    opacity: 1;
+    font-size: 25px;
+    padding: 20px 100px;
+    color: rgb(246, 246, 0);
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 1200px;
+    width: 600px;
+}
+
+form {
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    background-color: rgb(139, 145, 145);
+    font-weight: 800;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+}
